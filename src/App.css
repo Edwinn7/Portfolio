@@ -15,6 +15,45 @@
 	font-weight: 400;
 }
 
+.scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  border-radius: 50%;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scrollToTop:hover {
+  background-color: #555;
+}
+.scrollToTop svg {
+  fill: white;
+  width: 24px;
+  height: 24px;
+}
+.btn-project {
+  background-color: rgba(170, 54, 124, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-project:hover {
+  background-color: rgba(74, 47, 189, 0.5);
+}
+
+
 /************ Default Css ************/
 * {
   margin: 0;
