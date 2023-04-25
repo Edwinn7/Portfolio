@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/Low code development-amico.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -59,6 +59,7 @@ export const Banner = () => {
                 <h1>{`Hi! I'm Edwin`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Back-End Developer", "Web Developer", "Mobile Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a committed and goal-oriented person with skills to collaborate in teams. I am enthusiastic about working in dynamic and challenging environments, always looking for new opportunities to improve myself both personally and professionally. I am interested in exploring new technologies and tools to stay up to date with the latest trends in development.</p>
                   <a href="/#connect"style={{ textDecoration: "none" }}><button>Let’s Connect <ArrowRightCircle size={25} /></button></a>
+                  <a href="/#cv"style={{ textDecoration: "none" }}><button>See CV<ArrowRightCircle size={25} /></button></a>
               </div>}
             </TrackVisibility>
           </Col>

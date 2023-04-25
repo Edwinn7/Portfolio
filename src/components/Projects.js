@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/Captura2.PNG";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/NewsApp.png";
 import projImg from "../assets/img/Captura.PNG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -30,14 +31,15 @@ export const Projects = () => {
       linkUrl:"https://github.com/Edwinn7/InterfazHotel"
     },
     {
-      title: "Business Startup",
+      title: "News App",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg,
+      linkUrl:""
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: projImg3,
     },
     {
       title: "Business Startup",
