@@ -3,9 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/Captura2.PNG";
 import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/NewsApp.png";
+import projImg4 from "../assets/img/Captura3.PNG";
 import projImg from "../assets/img/Captura.PNG";
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -33,8 +32,8 @@ export const Projects = () => {
     {
       title: "News App",
       description: "Design & Development",
-      imgUrl: projImg,
-      linkUrl:""
+      imgUrl: projImg4,
+      linkUrl:"https://appetize.io/app/fxf5dboitmzcya6huntvb3i57a?device=pixel4&osVersion=11.0&scale=75"
     },
     {
       title: "Business Startup",
@@ -102,7 +101,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
     </section>
   )
 }
