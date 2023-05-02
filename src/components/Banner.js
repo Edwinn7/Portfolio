@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Back-End Developer", "Web Developer", "Mobile Developer" ];
+  const toRotate = ["Back-End Developer", "Web Developer", "Mobile Developer"];
   const period = 2000;
 
   useEffect(() => {
@@ -54,20 +54,20 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Edwin`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Back-End Developer", "Web Developer", "Mobile Developer" ]'><span className="wrap">{text}</span></span></h1>
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <span className="tagline">Welcome to my Portfolio</span>
+                  <h1>{`Hi! I'm Edwin`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Back-End Developer", "Web Developer", "Mobile Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a committed and goal-oriented person with skills to collaborate in teams. I am enthusiastic about working in dynamic and challenging environments, always looking for new opportunities to improve myself both personally and professionally. I am interested in exploring new technologies and tools to stay up to date with the latest trends in development.</p>
-                  <a href="/#connect"style={{ textDecoration: "none" }}><button>Let’s Connect <ArrowRightCircle size={25} /></button></a>
-                  <a href="/#cv"style={{ textDecoration: "none" }}><button>See CV<ArrowRightCircle size={25} /></button></a>
-              </div>}
+                  <a href="/#connect" style={{ textDecoration: "none" }}><button>Let’s Connect <ArrowRightCircle size={25} /></button></a>
+                  <a href="https://drive.google.com/file/d/1hs-2WRsMD7JBoh-g8KdyjxAJ4Q5iOZu7/view" style={{ textDecoration: "none" }}><button>See CV<ArrowRightCircle size={25} /></button></a>
+                </div>}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={headerImg} alt="Header Img" />
                 </div>}
             </TrackVisibility>
           </Col>

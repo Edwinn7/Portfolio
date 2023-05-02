@@ -32,7 +32,7 @@ export const Skills = () => {
               <p>Software developer with experience in multiple languages and tools such as Java, JavaScript, TypeScript, Python, PHP, C#, Go, SQL, .NET, Django, ReactJs, Angular, Scrum, and Git. </p>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">
-                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <svg viewBox="0 0 36 36" class="circular-chart">
                     <path class="circle-bg"
                       d="M18 2.0845
         a 15.9155 15.9155 0 0 1 0 31.831
@@ -49,7 +49,7 @@ export const Skills = () => {
                   <h5>Database Management</h5>
                 </div>
                 <div className="item">
-                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <svg viewBox="0 0 36 36" class="circular-chart">
                     <path class="circle-bg"
                       d="M18 2.0845
         a 15.9155 15.9155 0 0 1 0 31.831
@@ -84,7 +84,7 @@ export const Skills = () => {
                   <h5>Web Development</h5>
                 </div>
                 <div className="item">
-                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <svg viewBox="0 0 36 36" class="circular-chart">
                     <path class="circle-bg"
                       d="M18 2.0845
         a 15.9155 15.9155 0 0 1 0 31.831
