@@ -13,7 +13,7 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "weather app",
+      title: "Weather app",
       description:"Program that shows the weather information and time of the requested location. (Click on view to see live)",
       imgUrl: projImg1,
       linkUrl:"https://app-meteorologica-5e217.web.app/"
@@ -87,14 +87,14 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Soon...</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Soon...</p>
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Soon...</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
