@@ -37,7 +37,7 @@ export const Contact = () => {
     let result = await response.json();
     let timeout;
     setFormDetails(formInitialDetails);
-    if (result.code == 200) {
+    if (result.code === 200) {
       setStatus({ succes: true, message: 'Message sent successfully' });
       timeout = setTimeout(() => {
         setStatus(false);
@@ -75,7 +75,7 @@ export const Contact = () => {
                         <input type="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" required />
                       </Col>
                       <Col size={12} sm={6} className="px-1">
-                        <input type="number" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)} pattern="^\d{10}$" required />
+                        <input type="number" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)} pattern="/^\d{10,}$/" required />
                       </Col>
                       <Col size={12} className="px-1">
                         <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)} required></textarea>

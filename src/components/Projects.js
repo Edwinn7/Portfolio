@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/Captura2.PNG";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/Captura3.PNG";
+import projImg5 from "../assets/img/Captura4.png";
 import projImg from "../assets/img/Captura.PNG";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,7 +14,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "weather app",
-      description: "Program that shows the weather information and time of the requested location",
+      description:"Program that shows the weather information and time of the requested location. (Click on view to see live)",
       imgUrl: projImg1,
       linkUrl:"https://app-meteorologica-5e217.web.app/"
     },
@@ -31,14 +32,15 @@ export const Projects = () => {
     },
     {
       title: "News App",
-      description: "news mobile app",
+      description: "Simple news application, allows you to view and search for the latest relevant news. (Click on view to see live)",
       imgUrl: projImg4,
       linkUrl:"https://appetize.io/app/fxf5dboitmzcya6huntvb3i57a?device=pixel4&osVersion=11.0&scale=75"
     },
     {
       title: "Chat App",
-      description: "chat app with chatengine.io",
-      imgUrl: projImg3,
+      description: "Simple messaging application, it allows the interaction of several users, it is allowed to attach files and it is in real time with the chatengine.io api",
+      imgUrl: projImg5,
+      linkUrl:"https://github.com/Edwinn7/ChatApp"
     },
     {
       title: "Business Startup",
