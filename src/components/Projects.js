@@ -31,13 +31,13 @@ export const Projects = () => {
     },
     {
       title: "News App",
-      description: "Design & Development",
+      description: "news mobile app",
       imgUrl: projImg4,
       linkUrl:"https://appetize.io/app/fxf5dboitmzcya6huntvb3i57a?device=pixel4&osVersion=11.0&scale=75"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Chat App",
+      description: "chat app with chatengine.io",
       imgUrl: projImg3,
     },
     {
